@@ -14,6 +14,14 @@
 		2899E5220DE3E06400AC0155 /* PdTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* PdTestViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* PdTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* PdTestViewController.m */; };
+		2D15148715D57152000256C5 /* authors in Resources */ = {isa = PBXBuildFile; fileRef = 2D15140915D57152000256C5 /* authors */; };
+		2D15148815D57152000256C5 /* changes in Resources */ = {isa = PBXBuildFile; fileRef = 2D15140A15D57152000256C5 /* changes */; };
+		2D1514C915D57152000256C5 /* moog~-help.pd in Resources */ = {isa = PBXBuildFile; fileRef = 2D15145015D57152000256C5 /* moog~-help.pd */; };
+		2D1514CA15D57152000256C5 /* moog~.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D15145115D57152000256C5 /* moog~.c */; };
+		2D1514E415D57152000256C5 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D15146F15D57152000256C5 /* LICENSE.txt */; };
+		2D1514EC15D57152000256C5 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D15147815D57152000256C5 /* README.txt */; };
+		2D1514F815D57152000256C5 /* VERSION in Resources */ = {isa = PBXBuildFile; fileRef = 2D15148615D57152000256C5 /* VERSION */; };
+		2D1514FA15D57221000256C5 /* try16-nongpl.pd in Resources */ = {isa = PBXBuildFile; fileRef = 2D1514F915D57220000256C5 /* try16-nongpl.pd */; };
 		2D27724415D010C000077A1F /* cylshot-idle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D27721915D010C000077A1F /* cylshot-idle.txt */; };
 		2D27724515D010C000077A1F /* cylshot-idle2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D27721A15D010C000077A1F /* cylshot-idle2.txt */; };
 		2D27724615D010C000077A1F /* cylshot-idle3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D27721B15D010C000077A1F /* cylshot-idle3.txt */; };
@@ -57,11 +65,6 @@
 		2D27726C15D010C000077A1F /* try7.pd in Resources */ = {isa = PBXBuildFile; fileRef = 2D27724115D010C000077A1F /* try7.pd */; };
 		2D27726D15D010C000077A1F /* try8-nicerev.pd in Resources */ = {isa = PBXBuildFile; fileRef = 2D27724215D010C000077A1F /* try8-nicerev.pd */; };
 		2D27726E15D010C000077A1F /* try9-nicerev.pd in Resources */ = {isa = PBXBuildFile; fileRef = 2D27724315D010C000077A1F /* try9-nicerev.pd */; };
-		2D27727215D0139C00077A1F /* try15-motor-no-d-out.pd in Resources */ = {isa = PBXBuildFile; fileRef = 2D27727115D0139C00077A1F /* try15-motor-no-d-out.pd */; };
-		2D2773F115D01FF600077A1F /* svf.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D2773F015D01FF600077A1F /* svf.c */; };
-		2D27746B15D0217D00077A1F /* shared.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D27742B15D0217D00077A1F /* shared.c */; };
-		2D27748015D0225400077A1F /* sic.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D27747F15D0225400077A1F /* sic.c */; };
-		2D27748215D0226900077A1F /* loud.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D27748115D0226900077A1F /* loud.c */; };
 		DC0C300E125D15FC008B6389 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0C300D125D15FC008B6389 /* Foundation.framework */; };
 		DC0C3012125D160B008B6389 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0C3011125D160B008B6389 /* UIKit.framework */; };
 		DC0C3016125D1614008B6389 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0C3015125D1614008B6389 /* CoreGraphics.framework */; };
@@ -69,7 +72,6 @@
 		DC70C562129B16FB006CC055 /* LoopWithExtern.pd in Resources */ = {isa = PBXBuildFile; fileRef = DC70C561129B16FB006CC055 /* LoopWithExtern.pd */; };
 		DC70C5FC129B28F8006CC055 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = DC70C5FB129B28F8006CC055 /* ReadMe.txt */; };
 		DCCC7CDF125C3E0F002CF6AC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCC7CDE125C3E0F002CF6AC /* AudioToolbox.framework */; };
-		DCD6ACC6128B38B100C61BBE /* lrshift~.c in Sources */ = {isa = PBXBuildFile; fileRef = DCD6ACC5128B38B100C61BBE /* lrshift~.c */; };
 		DCD724CF125D1A1E000A4BDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD724CE125D1A1E000A4BDE /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -108,6 +110,15 @@
 		28D7ACF60DDB3853001CB0EB /* PdTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PdTestViewController.h; sourceTree = "<group>"; };
 		28D7ACF70DDB3853001CB0EB /* PdTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PdTestViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D15140915D57152000256C5 /* authors */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = authors; sourceTree = "<group>"; };
+		2D15140A15D57152000256C5 /* changes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = changes; sourceTree = "<group>"; };
+		2D15144315D57152000256C5 /* filters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filters.h; sourceTree = "<group>"; };
+		2D15145015D57152000256C5 /* moog~-help.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "moog~-help.pd"; sourceTree = "<group>"; };
+		2D15145115D57152000256C5 /* moog~.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "moog~.c"; sourceTree = "<group>"; };
+		2D15146F15D57152000256C5 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		2D15147815D57152000256C5 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		2D15148615D57152000256C5 /* VERSION */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VERSION; sourceTree = "<group>"; };
+		2D1514F915D57220000256C5 /* try16-nongpl.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "try16-nongpl.pd"; sourceTree = "<group>"; };
 		2D27721915D010C000077A1F /* cylshot-idle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "cylshot-idle.txt"; sourceTree = "<group>"; };
 		2D27721A15D010C000077A1F /* cylshot-idle2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "cylshot-idle2.txt"; sourceTree = "<group>"; };
 		2D27721B15D010C000077A1F /* cylshot-idle3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "cylshot-idle3.txt"; sourceTree = "<group>"; };
@@ -151,12 +162,6 @@
 		2D27724115D010C000077A1F /* try7.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = try7.pd; sourceTree = "<group>"; };
 		2D27724215D010C000077A1F /* try8-nicerev.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "try8-nicerev.pd"; sourceTree = "<group>"; };
 		2D27724315D010C000077A1F /* try9-nicerev.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "try9-nicerev.pd"; sourceTree = "<group>"; };
-		2D27727115D0139C00077A1F /* try15-motor-no-d-out.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "try15-motor-no-d-out.pd"; sourceTree = "<group>"; };
-		2D2773F015D01FF600077A1F /* svf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = svf.c; path = cyclone/sickle/svf.c; sourceTree = "<group>"; };
-		2D27742B15D0217D00077A1F /* shared.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shared.c; sourceTree = "<group>"; };
-		2D27742C15D0217D00077A1F /* shared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shared.h; sourceTree = "<group>"; };
-		2D27747F15D0225400077A1F /* sic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sic.c; path = sickle/sic.c; sourceTree = "<group>"; };
-		2D27748115D0226900077A1F /* loud.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = loud.c; path = common/loud.c; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* PdTest02_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PdTest02_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* PdTest02-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PdTest02-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		DC0C300D125D15FC008B6389 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -166,7 +171,6 @@
 		DC70C561129B16FB006CC055 /* LoopWithExtern.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LoopWithExtern.pd; sourceTree = "<group>"; };
 		DC70C5FB129B28F8006CC055 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 		DCCC7CDE125C3E0F002CF6AC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
-		DCD6ACC5128B38B100C61BBE /* lrshift~.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "lrshift~.c"; path = "../libpd/pure-data/extra/lrshift~/lrshift~.c"; sourceTree = "<group>"; };
 		DCD724CE125D1A1E000A4BDE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -266,10 +270,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2D15140815D57152000256C5 /* ggee */ = {
+			isa = PBXGroup;
+			children = (
+				2D15140915D57152000256C5 /* authors */,
+				2D15140A15D57152000256C5 /* changes */,
+				2D15143E15D57152000256C5 /* filters */,
+				2D15146F15D57152000256C5 /* LICENSE.txt */,
+				2D15147815D57152000256C5 /* README.txt */,
+				2D15148615D57152000256C5 /* VERSION */,
+			);
+			path = ggee;
+			sourceTree = "<group>";
+		};
+		2D15143E15D57152000256C5 /* filters */ = {
+			isa = PBXGroup;
+			children = (
+				2D15144315D57152000256C5 /* filters.h */,
+				2D15145015D57152000256C5 /* moog~-help.pd */,
+				2D15145115D57152000256C5 /* moog~.c */,
+			);
+			path = filters;
+			sourceTree = "<group>";
+		};
 		2D27721815D010C000077A1F /* harley */ = {
 			isa = PBXGroup;
 			children = (
-				2D27727115D0139C00077A1F /* try15-motor-no-d-out.pd */,
+				2D1514F915D57220000256C5 /* try16-nongpl.pd */,
 				2D27721915D010C000077A1F /* cylshot-idle.txt */,
 				2D27721A15D010C000077A1F /* cylshot-idle2.txt */,
 				2D27721B15D010C000077A1F /* cylshot-idle3.txt */,
@@ -317,39 +344,10 @@
 			path = harley;
 			sourceTree = "<group>";
 		};
-		2D2773F615D0217D00077A1F /* shared */ = {
-			isa = PBXGroup;
-			children = (
-				2D27748315D0226C00077A1F /* hammer */,
-				2D27747E15D0224200077A1F /* sickle */,
-				2D27742B15D0217D00077A1F /* shared.c */,
-				2D27742C15D0217D00077A1F /* shared.h */,
-			);
-			path = shared;
-			sourceTree = "<group>";
-		};
-		2D27747E15D0224200077A1F /* sickle */ = {
-			isa = PBXGroup;
-			children = (
-				2D27747F15D0225400077A1F /* sic.c */,
-			);
-			name = sickle;
-			sourceTree = "<group>";
-		};
-		2D27748315D0226C00077A1F /* hammer */ = {
-			isa = PBXGroup;
-			children = (
-				2D27748115D0226900077A1F /* loud.c */,
-			);
-			name = hammer;
-			sourceTree = "<group>";
-		};
 		DCD6ACBC128B37E500C61BBE /* libpd extra externals */ = {
 			isa = PBXGroup;
 			children = (
-				2D2773F615D0217D00077A1F /* shared */,
-				2D2773F015D01FF600077A1F /* svf.c */,
-				DCD6ACC5128B38B100C61BBE /* lrshift~.c */,
+				2D15140815D57152000256C5 /* ggee */,
 			);
 			name = "libpd extra externals";
 			sourceTree = "<group>";
@@ -478,7 +476,13 @@
 				2D27726C15D010C000077A1F /* try7.pd in Resources */,
 				2D27726D15D010C000077A1F /* try8-nicerev.pd in Resources */,
 				2D27726E15D010C000077A1F /* try9-nicerev.pd in Resources */,
-				2D27727215D0139C00077A1F /* try15-motor-no-d-out.pd in Resources */,
+				2D15148715D57152000256C5 /* authors in Resources */,
+				2D15148815D57152000256C5 /* changes in Resources */,
+				2D1514C915D57152000256C5 /* moog~-help.pd in Resources */,
+				2D1514E415D57152000256C5 /* LICENSE.txt in Resources */,
+				2D1514EC15D57152000256C5 /* README.txt in Resources */,
+				2D1514F815D57152000256C5 /* VERSION in Resources */,
+				2D1514FA15D57221000256C5 /* try16-nongpl.pd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,11 +496,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* PdTestAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* PdTestViewController.m in Sources */,
-				DCD6ACC6128B38B100C61BBE /* lrshift~.c in Sources */,
-				2D2773F115D01FF600077A1F /* svf.c in Sources */,
-				2D27746B15D0217D00077A1F /* shared.c in Sources */,
-				2D27748015D0225400077A1F /* sic.c in Sources */,
-				2D27748215D0226900077A1F /* loud.c in Sources */,
+				2D1514CA15D57152000256C5 /* moog~.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

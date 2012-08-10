@@ -57,8 +57,7 @@
 #pragma mark -
 #pragma mark Application lifecycle
 
-extern void lrshift_tilde_setup(void);
-extern void svf_tilde_setup(void);
+extern void moog_tilde_setup(void);
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
 
@@ -72,7 +71,7 @@ extern void svf_tilde_setup(void);
 	// initialize extern lrshift~ - note this extern must be statically linked with the app; 
 	// externs can not be loaded dynamically on iOS
 	//lrshift_tilde_setup();  
-	svf_tilde_setup();
+	moog_tilde_setup();
 	
 	[self openAndRunTestPatch]; 
 	[self.audioController print];
@@ -85,7 +84,7 @@ extern void svf_tilde_setup(void);
 - (void)openAndRunTestPatch {
 	// open patch located in app bundle
 	//void *x = [PdBase openFile:@"LoopWithExtern.pd" path:[[NSBundle mainBundle] bundlePath]];
-	void *x = [PdBase openFile:@"try15-motor-no-d-out.pd" path:[[NSBundle mainBundle] bundlePath]/* stringByAppendingFormat:@"/harley"]*/
+	void *x = [PdBase openFile:@"try16-nongpl.pd" path:[[NSBundle mainBundle] bundlePath]/* stringByAppendingFormat:@"/harley"]*/
 			   ];
 	[self.audioController setActive:YES];
 }
